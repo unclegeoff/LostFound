@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294CC6E22C6D46A2891CA7BA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F84C43C773643069AAC6A0C /* libPods.a */; };
 		324B1758188B2E6300F79A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324B1757188B2E6300F79A26 /* Foundation.framework */; };
 		324B175A188B2E6300F79A26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324B1759188B2E6300F79A26 /* CoreGraphics.framework */; };
 		324B175C188B2E6300F79A26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324B175B188B2E6300F79A26 /* UIKit.framework */; };
@@ -22,6 +23,11 @@
 		324B177C188B2E6300F79A26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324B175B188B2E6300F79A26 /* UIKit.framework */; };
 		324B1784188B2E6300F79A26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 324B1782188B2E6300F79A26 /* InfoPlist.strings */; };
 		324B1786188B2E6300F79A26 /* LostFoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1785188B2E6300F79A26 /* LostFoundTests.m */; };
+		324B1791188B3A2300F79A26 /* LostItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1790188B3A2300F79A26 /* LostItem.m */; };
+		324B1794188B85F500F79A26 /* NewLostItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1793188B85F500F79A26 /* NewLostItem.m */; };
+		324B1797188B8A0400F79A26 /* NameScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1796188B8A0400F79A26 /* NameScreenController.m */; };
+		324B179A188BAE8900F79A26 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1799188BAE8900F79A26 /* ThirdViewController.m */; };
+		324B179D188BB09100F79A26 /* FoundItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B179C188BB09100F79A26 /* FoundItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,18 @@
 		324B1781188B2E6300F79A26 /* LostFoundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LostFoundTests-Info.plist"; sourceTree = "<group>"; };
 		324B1783188B2E6300F79A26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		324B1785188B2E6300F79A26 /* LostFoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LostFoundTests.m; sourceTree = "<group>"; };
+		324B178F188B3A2300F79A26 /* LostItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostItem.h; sourceTree = "<group>"; };
+		324B1790188B3A2300F79A26 /* LostItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostItem.m; sourceTree = "<group>"; };
+		324B1792188B85F500F79A26 /* NewLostItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewLostItem.h; sourceTree = "<group>"; };
+		324B1793188B85F500F79A26 /* NewLostItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLostItem.m; sourceTree = "<group>"; };
+		324B1795188B8A0400F79A26 /* NameScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameScreenController.h; sourceTree = "<group>"; };
+		324B1796188B8A0400F79A26 /* NameScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameScreenController.m; sourceTree = "<group>"; };
+		324B1798188BAE8900F79A26 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		324B1799188BAE8900F79A26 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		324B179B188BB09100F79A26 /* FoundItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundItem.h; sourceTree = "<group>"; };
+		324B179C188BB09100F79A26 /* FoundItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundItem.m; sourceTree = "<group>"; };
+		6F84C43C773643069AAC6A0C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9500AD33AFA44ED9DBCBD85 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,7 @@
 				324B175A188B2E6300F79A26 /* CoreGraphics.framework in Frameworks */,
 				324B175C188B2E6300F79A26 /* UIKit.framework in Frameworks */,
 				324B1758188B2E6300F79A26 /* Foundation.framework in Frameworks */,
+				294CC6E22C6D46A2891CA7BA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +108,7 @@
 				324B177F188B2E6300F79A26 /* LostFoundTests */,
 				324B1756188B2E6300F79A26 /* Frameworks */,
 				324B1755188B2E6300F79A26 /* Products */,
+				F9500AD33AFA44ED9DBCBD85 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +128,7 @@
 				324B1759188B2E6300F79A26 /* CoreGraphics.framework */,
 				324B175B188B2E6300F79A26 /* UIKit.framework */,
 				324B1779188B2E6300F79A26 /* XCTest.framework */,
+				6F84C43C773643069AAC6A0C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +143,16 @@
 				324B176D188B2E6300F79A26 /* FirstViewController.m */,
 				324B176F188B2E6300F79A26 /* SecondViewController.h */,
 				324B1770188B2E6300F79A26 /* SecondViewController.m */,
+				324B1798188BAE8900F79A26 /* ThirdViewController.h */,
+				324B1799188BAE8900F79A26 /* ThirdViewController.m */,
+				324B179B188BB09100F79A26 /* FoundItem.h */,
+				324B179C188BB09100F79A26 /* FoundItem.m */,
+				324B178F188B3A2300F79A26 /* LostItem.h */,
+				324B1790188B3A2300F79A26 /* LostItem.m */,
+				324B1795188B8A0400F79A26 /* NameScreenController.h */,
+				324B1796188B8A0400F79A26 /* NameScreenController.m */,
+				324B1792188B85F500F79A26 /* NewLostItem.h */,
+				324B1793188B85F500F79A26 /* NewLostItem.m */,
 				324B1772188B2E6300F79A26 /* Images.xcassets */,
 				324B175E188B2E6300F79A26 /* Supporting Files */,
 			);
@@ -164,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 324B1789188B2E6300F79A26 /* Build configuration list for PBXNativeTarget "LostFound" */;
 			buildPhases = (
+				4AF43B60CAA94851A47A7BEA /* Check Pods Manifest.lock */,
 				324B1750188B2E6300F79A26 /* Sources */,
 				324B1751188B2E6300F79A26 /* Frameworks */,
 				324B1752188B2E6300F79A26 /* Resources */,
+				F87F38821652404DA9C5120B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,15 +282,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AF43B60CAA94851A47A7BEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F87F38821652404DA9C5120B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		324B1750188B2E6300F79A26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324B1791188B3A2300F79A26 /* LostItem.m in Sources */,
 				324B1771188B2E6300F79A26 /* SecondViewController.m in Sources */,
+				324B179A188BAE8900F79A26 /* ThirdViewController.m in Sources */,
 				324B1768188B2E6300F79A26 /* AppDelegate.m in Sources */,
+				324B179D188BB09100F79A26 /* FoundItem.m in Sources */,
+				324B1797188B8A0400F79A26 /* NameScreenController.m in Sources */,
 				324B176E188B2E6300F79A26 /* FirstViewController.m in Sources */,
 				324B1764188B2E6300F79A26 /* main.m in Sources */,
+				324B1794188B85F500F79A26 /* NewLostItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +452,7 @@
 		};
 		324B178A188B2E6300F79A26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9500AD33AFA44ED9DBCBD85 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -394,6 +466,7 @@
 		};
 		324B178B188B2E6300F79A26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9500AD33AFA44ED9DBCBD85 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -466,6 +539,7 @@
 				324B178B188B2E6300F79A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		324B178C188B2E6300F79A26 /* Build configuration list for PBXNativeTarget "LostFoundTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +548,7 @@
 				324B178E188B2E6300F79A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
