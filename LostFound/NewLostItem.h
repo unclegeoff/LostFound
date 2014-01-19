@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewLostItem : UIViewController
+@interface NewLostItem : UIViewController{
+    IBOutlet UITextField *emaText;
+    IBOutlet UITextField *tagText;
+    IBOutlet UITextField *desText;
+    IBOutlet UITextField *locText;
+    IBOutlet UITextField *iteText;
+}
 
 @end

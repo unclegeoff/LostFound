@@ -25,10 +25,10 @@
 		324B1786188B2E6300F79A26 /* LostFoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1785188B2E6300F79A26 /* LostFoundTests.m */; };
 		324B1791188B3A2300F79A26 /* LostItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1790188B3A2300F79A26 /* LostItem.m */; };
 		324B1794188B85F500F79A26 /* NewLostItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1793188B85F500F79A26 /* NewLostItem.m */; };
-		324B1797188B8A0400F79A26 /* NameScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1796188B8A0400F79A26 /* NameScreenController.m */; };
 		324B179A188BAE8900F79A26 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1799188BAE8900F79A26 /* ThirdViewController.m */; };
 		324B179D188BB09100F79A26 /* FoundItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B179C188BB09100F79A26 /* FoundItem.m */; };
 		324B179F188BB59700F79A26 /* Dick_Butt_by_beyx.png in Resources */ = {isa = PBXBuildFile; fileRef = 324B179E188BB59700F79A26 /* Dick_Butt_by_beyx.png */; };
+		324B17A5188BE76400F79A26 /* EmailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B17A4188BE76400F79A26 /* EmailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,13 +67,13 @@
 		324B1790188B3A2300F79A26 /* LostItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostItem.m; sourceTree = "<group>"; };
 		324B1792188B85F500F79A26 /* NewLostItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewLostItem.h; sourceTree = "<group>"; };
 		324B1793188B85F500F79A26 /* NewLostItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLostItem.m; sourceTree = "<group>"; };
-		324B1795188B8A0400F79A26 /* NameScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameScreenController.h; sourceTree = "<group>"; };
-		324B1796188B8A0400F79A26 /* NameScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameScreenController.m; sourceTree = "<group>"; };
 		324B1798188BAE8900F79A26 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		324B1799188BAE8900F79A26 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		324B179B188BB09100F79A26 /* FoundItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundItem.h; sourceTree = "<group>"; };
 		324B179C188BB09100F79A26 /* FoundItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundItem.m; sourceTree = "<group>"; };
 		324B179E188BB59700F79A26 /* Dick_Butt_by_beyx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dick_Butt_by_beyx.png; path = ../../../Dick_Butt_by_beyx.png; sourceTree = "<group>"; };
+		324B17A3188BE76400F79A26 /* EmailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailController.h; sourceTree = "<group>"; };
+		324B17A4188BE76400F79A26 /* EmailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailController.m; sourceTree = "<group>"; };
 		6F84C43C773643069AAC6A0C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9500AD33AFA44ED9DBCBD85 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,12 +147,12 @@
 				324B1770188B2E6300F79A26 /* SecondViewController.m */,
 				324B1798188BAE8900F79A26 /* ThirdViewController.h */,
 				324B1799188BAE8900F79A26 /* ThirdViewController.m */,
+				324B17A3188BE76400F79A26 /* EmailController.h */,
+				324B17A4188BE76400F79A26 /* EmailController.m */,
 				324B179B188BB09100F79A26 /* FoundItem.h */,
 				324B179C188BB09100F79A26 /* FoundItem.m */,
 				324B178F188B3A2300F79A26 /* LostItem.h */,
 				324B1790188B3A2300F79A26 /* LostItem.m */,
-				324B1795188B8A0400F79A26 /* NameScreenController.h */,
-				324B1796188B8A0400F79A26 /* NameScreenController.m */,
 				324B1792188B85F500F79A26 /* NewLostItem.h */,
 				324B1793188B85F500F79A26 /* NewLostItem.m */,
 				324B179E188BB59700F79A26 /* Dick_Butt_by_beyx.png */,
@@ -329,7 +329,7 @@
 				324B179A188BAE8900F79A26 /* ThirdViewController.m in Sources */,
 				324B1768188B2E6300F79A26 /* AppDelegate.m in Sources */,
 				324B179D188BB09100F79A26 /* FoundItem.m in Sources */,
-				324B1797188B8A0400F79A26 /* NameScreenController.m in Sources */,
+				324B17A5188BE76400F79A26 /* EmailController.m in Sources */,
 				324B176E188B2E6300F79A26 /* FirstViewController.m in Sources */,
 				324B1764188B2E6300F79A26 /* main.m in Sources */,
 				324B1794188B85F500F79A26 /* NewLostItem.m in Sources */,

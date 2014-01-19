@@ -20,8 +20,6 @@
 @property NSString *description;
 @property NSArray *tags;
 @property NSString *location;
-@property NSString *date;
-@property NSString *match_id;
 @property NSDictionary *dict;
 
 @end

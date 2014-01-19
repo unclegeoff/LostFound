@@ -1,18 +1,20 @@
 //
-//  NewLostItem.m
+//  EmailController.m
 //  LostFound
 //
-//  Created by Geoffery Gilles on 1/18/14.
+//  Created by Geoffery Gilles on 1/19/14.
 //  Copyright (c) 2014 Geoffery Gilles. All rights reserved.
 //
 
-#import "NewLostItem.h"
+#import "EmailController.h"
 
-@interface NewLostItem ()
+@interface EmailController ()
 
 @end
 
-@implementation NewLostItem
+static NSString *email;
+
+@implementation EmailController
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -34,6 +36,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)setEmail{
+    email = [dickbutt text];
+}
+
+-(NSString *)getEmail{
+    return email;
 }
 
 @end

@@ -8,7 +8,7 @@
 
 #import "FirstViewController.h"
 #import "LostItem.h"
-#import "NameScreenController.h"
+#import "EmailController.h"
 
 @interface FirstViewController (){
     NSMutableArray *items;
@@ -66,8 +66,8 @@
         // Now create a NSDictionary from the JSON data
         NSArray *array = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
         // Create a new array to hold the locations
-        NameScreenController *nsc = [[NameScreenController alloc]init];
-        NSString *username = nsc.getName;
+        EmailController *nsc = [[EmailController alloc]init];
+        NSString *username = nsc.getEmail;
         items = [[NSMutableArray alloc] init];
         // Iterate through the array of dictionaries
         for(NSDictionary *dict in array) {
