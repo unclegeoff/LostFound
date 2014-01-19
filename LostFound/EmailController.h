@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface EmailController : UIViewController {
-    IBOutlet UITextField *dickbutt;
+    IBOutlet UITextField *textField;
 }
 
 -(IBAction) setEmail;

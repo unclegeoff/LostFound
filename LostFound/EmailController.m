@@ -39,7 +39,7 @@ static NSString *email;
 }
 
 -(IBAction)setEmail{
-    email = [dickbutt text];
+    email = [textField text];
 }
 
 -(NSString *)getEmail{
