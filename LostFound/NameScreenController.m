@@ -35,6 +35,7 @@
 	// Do any additional setup after loading the view.
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     name.text = [userDefaults objectForKey:@"name"];
+    printf(savedName.UTF8String);
 }
 
 - (void)didReceiveMemoryWarning

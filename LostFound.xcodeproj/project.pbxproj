@@ -28,6 +28,7 @@
 		324B1797188B8A0400F79A26 /* NameScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1796188B8A0400F79A26 /* NameScreenController.m */; };
 		324B179A188BAE8900F79A26 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B1799188BAE8900F79A26 /* ThirdViewController.m */; };
 		324B179D188BB09100F79A26 /* FoundItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 324B179C188BB09100F79A26 /* FoundItem.m */; };
+		324B179F188BB59700F79A26 /* Dick_Butt_by_beyx.png in Resources */ = {isa = PBXBuildFile; fileRef = 324B179E188BB59700F79A26 /* Dick_Butt_by_beyx.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		324B1799188BAE8900F79A26 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		324B179B188BB09100F79A26 /* FoundItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundItem.h; sourceTree = "<group>"; };
 		324B179C188BB09100F79A26 /* FoundItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundItem.m; sourceTree = "<group>"; };
+		324B179E188BB59700F79A26 /* Dick_Butt_by_beyx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dick_Butt_by_beyx.png; path = ../../../Dick_Butt_by_beyx.png; sourceTree = "<group>"; };
 		6F84C43C773643069AAC6A0C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9500AD33AFA44ED9DBCBD85 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +155,7 @@
 				324B1796188B8A0400F79A26 /* NameScreenController.m */,
 				324B1792188B85F500F79A26 /* NewLostItem.h */,
 				324B1793188B85F500F79A26 /* NewLostItem.m */,
+				324B179E188BB59700F79A26 /* Dick_Butt_by_beyx.png */,
 				324B1772188B2E6300F79A26 /* Images.xcassets */,
 				324B175E188B2E6300F79A26 /* Supporting Files */,
 			);
@@ -268,6 +271,7 @@
 			files = (
 				324B1773188B2E6300F79A26 /* Images.xcassets in Resources */,
 				324B1762188B2E6300F79A26 /* InfoPlist.strings in Resources */,
+				324B179F188BB59700F79A26 /* Dick_Butt_by_beyx.png in Resources */,
 				324B176B188B2E6300F79A26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

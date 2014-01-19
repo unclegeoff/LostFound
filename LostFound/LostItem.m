@@ -27,7 +27,7 @@
         tags = [jsonDictionary objectForKey:@"Tags"];
         location = [jsonDictionary objectForKey:@"Found_Location"];
         date = [jsonDictionary objectForKey:@"Date_Created"];
-        match_id = [jsonDictionary objectForKey:@"Match_id"];
+        match_id = [jsonDictionary objectForKey:@"PMatch_id"];
         dict = [NSMutableDictionary dictionary];
         [dict setValue:user forKey:@"User"];
         [dict setValue:itemName forKey:@"Item"];
@@ -35,8 +35,13 @@
         [dict setValue:tags forKey:@"Tags"];
         [dict setValue:location forKey:@"Found_Location"];
         [dict setValue:date forKey:@"Date_Created"];
-        [dict setValue:match_id forKey:@"Match_id"];
+        [dict setValue:match_id forKey:@"PMatch_id"];
     }
+    return self;
+}
+
+- (id)initNewLostItem{
+    
     return self;
 }
 
