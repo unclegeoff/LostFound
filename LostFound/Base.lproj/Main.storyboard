@@ -29,7 +29,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Lost Items" id="h19-OB-03l">
-                        <barButtonItem key="leftBarButtonItem" title="Edit Name" id="B52-oK-5lG"/>
+                        <barButtonItem key="leftBarButtonItem" title="Edit Name" id="B52-oK-5lG">
+                            <connections>
+                                <segue destination="eyR-XK-gmg" kind="modal" id="qRn-uc-wMZ"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="c0y-vV-Ox1">
                             <connections>
                                 <segue destination="ckp-X9-qKs" kind="modal" id="VXE-MZ-txJ"/>
@@ -123,7 +127,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Found Items" id="hg4-kG-L6h">
-                        <barButtonItem key="leftBarButtonItem" title="Edit Name" id="Dmj-Tk-OZU"/>
+                        <barButtonItem key="leftBarButtonItem" title="Edit Name" id="Dmj-Tk-OZU">
+                            <connections>
+                                <segue destination="eyR-XK-gmg" kind="modal" id="1BD-Nc-e8R"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="JPh-qB-1GC"/>
                     </navigationItem>
                 </viewController>
@@ -267,7 +275,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Lost Items" id="PxB-lD-jHo">
-                        <barButtonItem key="leftBarButtonItem" title="Edit Name" id="sdw-sH-OVy"/>
+                        <barButtonItem key="leftBarButtonItem" title="Edit Name" id="sdw-sH-OVy">
+                            <connections>
+                                <segue destination="eyR-XK-gmg" kind="modal" id="ruw-Ui-OmV"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="lGh-kQ-3gc"/>
                     </navigationItem>
                 </viewController>
@@ -305,5 +317,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="eWQ-Wx-Sjp"/>
+        <segue reference="ruw-Ui-OmV"/>
     </inferredMetricsTieBreakers>
 </document>
